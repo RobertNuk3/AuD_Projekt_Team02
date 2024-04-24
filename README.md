@@ -1,5 +1,27 @@
 ## AuD_Projekt_Team02
 
+Ein Filmproduzent plant das Drehen von Szenen für einen Kinofilm, insbesondere soll festgelegt werden, an welchen Tagen welche Szenen gedreht werden. 
+
+
+Dabei gilt:
+
+**Szenen**
+- $S$ ist die Menge der Szenene
+- jede Szene $s$ hat einen gegebene Dauer $d(s)$ in Tagen
+
+**Schauspieler**
+- $A$ ist die Menge der Schauspieler
+- $c(a)$ sind die Kosten von Schauspieler*in $a$ pro Tag
+- $a(s)$ ist die Menge der Schauspieler, die für den Dreh von Szene $s$ benötigt werden
+
+**Zu beachten:**
+- ein*e Schauspieler*in bleibt von der ersten Szene, an der er/sie beteiligt ist, bis zur letzten Szene, an der er/sie beteiligt ist, am Drehort(und verursacht für die ganze Zeit Kosten)
+- eine Szene wird immer am Stück gedreht
+
+
+**Gesucht:** 
+- eine Abfolge von Szenen, die Gesamtkosten für die Schauspieler*innen minimiert
+
 ### The format of the instances are;
 *https://people.eng.unimelb.edu.au/pstuckey/talent/*
 
